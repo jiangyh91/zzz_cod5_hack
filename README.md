@@ -1,2 +1,2 @@
-# zzz_cod5_hack
-cod5魔改计划！
+# Credits
+Cosalcea, Empty, Sora no kiseki
