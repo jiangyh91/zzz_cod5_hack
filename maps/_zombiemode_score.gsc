@@ -79,11 +79,15 @@ player_add_points( event, mod, hit_location )
 	{
 		kill = 500;
 		self setstat(1209, self getstat(1209)+1);
+		self setstat(1249, self getstat(1249)+1);
+		self setstat(152, self getstat(152)+1);
 	}
 	else
 	{
 		kill = 1000;
 		self setstat(1209, self getstat(1209)+1);
+		self setstat(1249, self getstat(1249)+1);
+		self setstat(152, self getstat(152)+1);
 	}
 	kill += xp_bonus( mod, hit_location );
 	if(isDefined(self.double_xp))
