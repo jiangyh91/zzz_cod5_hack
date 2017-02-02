@@ -45,7 +45,7 @@ player_add_points( event, mod, hit_location )
 						self.soldier_melees = 0;
 						self setstat(213, 0);
 					}
-					iprintlnbold(" sold_mel: "+self.soldier_melees+" STAT: "+self getstat(213));
+					//iprintlnbold(" sold_mel: "+self.soldier_melees+" STAT: "+self getstat(213));
 				}
 			}
 			
